@@ -1,3 +1,5 @@
+const pool = require('./../config/db');
+
 const getTransacoes = async (req, res) => {
     const { id } = req.params;
 
